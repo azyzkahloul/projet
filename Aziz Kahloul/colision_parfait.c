@@ -59,17 +59,6 @@ SDL_PollEvent(event);
             break;
  		}
 
-
-
-
-
-
-
-
-
-
-
-
 	 if(d==1)//imin
   {
     col=GetPixel(calque,evan.pos_hero2.x,evan.pos_hero2.y);
@@ -83,7 +72,7 @@ SDL_PollEvent(event);
 {
   return 1; //ak7el
 }
-else if ((col.r==0)&&(col.b==0)&&(col.g==255))
+/*else if ((col.r==0)&&(col.b==0)&&(col.g==255))
 {
   return 2; //a5dher
 }
@@ -96,4 +85,4 @@ else if ((col.r==2500)&&(col.b==0)&&(col.g==0))
   return 4; //a7mer
 }
 else return 0;
-}
+}*/
